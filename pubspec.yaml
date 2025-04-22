@@ -1,6 +1,6 @@
 name: flutter_goapi_chat_app
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -9,6 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_secure_storage: ^9.2.4
+  http: ^1.3.0
+  provider: ^6.1.4
 
 dev_dependencies:
   flutter_test:
